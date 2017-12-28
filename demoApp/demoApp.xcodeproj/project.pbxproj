@@ -11,13 +11,21 @@
 		3739B0866B4F71FB0D3A75B7 /* Pods_demoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD26D03F82DB2DEAE176B1E /* Pods_demoAppTests.framework */; };
 		3907EA4F12838AF63626692F /* Pods_demoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FE04C7C7DDCEA60B577F84 /* Pods_demoApp.framework */; };
 		ED3173521FF54666005F105E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3173511FF54666005F105E /* AppDelegate.swift */; };
-		ED3173541FF54666005F105E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3173531FF54666005F105E /* ViewController.swift */; };
 		ED3173571FF54666005F105E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3173551FF54666005F105E /* Main.storyboard */; };
 		ED3173591FF54666005F105E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3173581FF54666005F105E /* Assets.xcassets */; };
 		ED31735C1FF54666005F105E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED31735A1FF54666005F105E /* LaunchScreen.storyboard */; };
 		ED3173671FF54666005F105E /* demoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3173661FF54666005F105E /* demoAppTests.swift */; };
 		ED3173721FF54666005F105E /* demoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3173711FF54666005F105E /* demoAppUITests.swift */; };
 		ED3173811FF547BA005F105E /* ServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3173801FF547BA005F105E /* ServiceHelper.swift */; };
+		ED3173841FF55158005F105E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3173831FF55158005F105E /* LoginViewController.swift */; };
+		ED3173871FF551FB005F105E /* NVTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3173861FF551FB005F105E /* NVTextField.swift */; };
+		ED3173891FF5522B005F105E /* NVButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3173881FF5522B005F105E /* NVButton.swift */; };
+		ED31738B1FF55510005F105E /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED31738A1FF55510005F105E /* DashBoardViewController.swift */; };
+		ED31738D1FF55640005F105E /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED31738C1FF55640005F105E /* LeftMenuViewController.swift */; };
+		ED3173901FF55959005F105E /* ImageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED31738E1FF55959005F105E /* ImageHeaderView.swift */; };
+		ED3173911FF55959005F105E /* ImageHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED31738F1FF55959005F105E /* ImageHeaderView.xib */; };
+		ED3173941FF55AD5005F105E /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3173931FF55AD5005F105E /* BaseTableViewCell.swift */; };
+		ED3173971FF55CC8005F105E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3173961FF55CC8005F105E /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +56,6 @@
 		D1FE04C7C7DDCEA60B577F84 /* Pods_demoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED31734E1FF54666005F105E /* demoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3173511FF54666005F105E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED3173531FF54666005F105E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED3173561FF54666005F105E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED3173581FF54666005F105E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED31735B1FF54666005F105E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +67,15 @@
 		ED3173711FF54666005F105E /* demoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoAppUITests.swift; sourceTree = "<group>"; };
 		ED3173731FF54666005F105E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED3173801FF547BA005F105E /* ServiceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHelper.swift; sourceTree = "<group>"; };
+		ED3173831FF55158005F105E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ED3173861FF551FB005F105E /* NVTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVTextField.swift; sourceTree = "<group>"; };
+		ED3173881FF5522B005F105E /* NVButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVButton.swift; sourceTree = "<group>"; };
+		ED31738A1FF55510005F105E /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		ED31738C1FF55640005F105E /* LeftMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		ED31738E1FF55959005F105E /* ImageHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHeaderView.swift; sourceTree = "<group>"; };
+		ED31738F1FF55959005F105E /* ImageHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageHeaderView.xib; sourceTree = "<group>"; };
+		ED3173931FF55AD5005F105E /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		ED3173961FF55CC8005F105E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		F577969314E0824864B8598E /* Pods-demoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-demoApp/Pods-demoApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,9 +155,12 @@
 		ED3173501FF54666005F105E /* demoApp */ = {
 			isa = PBXGroup;
 			children = (
+				ED3173951FF55C9A005F105E /* Extension */,
+				ED3173921FF5595E005F105E /* View */,
+				ED3173851FF551C4005F105E /* Control */,
+				ED3173821FF55142005F105E /* ViewController */,
 				ED31737F1FF547AF005F105E /* ServiceHelper */,
 				ED3173511FF54666005F105E /* AppDelegate.swift */,
-				ED3173531FF54666005F105E /* ViewController.swift */,
 				ED3173551FF54666005F105E /* Main.storyboard */,
 				ED3173581FF54666005F105E /* Assets.xcassets */,
 				ED31735A1FF54666005F105E /* LaunchScreen.storyboard */,
@@ -174,6 +193,43 @@
 				ED3173801FF547BA005F105E /* ServiceHelper.swift */,
 			);
 			path = ServiceHelper;
+			sourceTree = "<group>";
+		};
+		ED3173821FF55142005F105E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ED3173831FF55158005F105E /* LoginViewController.swift */,
+				ED31738A1FF55510005F105E /* DashBoardViewController.swift */,
+				ED31738C1FF55640005F105E /* LeftMenuViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ED3173851FF551C4005F105E /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				ED3173861FF551FB005F105E /* NVTextField.swift */,
+				ED3173881FF5522B005F105E /* NVButton.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		ED3173921FF5595E005F105E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED31738E1FF55959005F105E /* ImageHeaderView.swift */,
+				ED31738F1FF55959005F105E /* ImageHeaderView.xib */,
+				ED3173931FF55AD5005F105E /* BaseTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED3173951FF55C9A005F105E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ED3173961FF55CC8005F105E /* Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +351,7 @@
 				ED31735C1FF54666005F105E /* LaunchScreen.storyboard in Resources */,
 				ED3173591FF54666005F105E /* Assets.xcassets in Resources */,
 				ED3173571FF54666005F105E /* Main.storyboard in Resources */,
+				ED3173911FF55959005F105E /* ImageHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,9 +514,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED3173541FF54666005F105E /* ViewController.swift in Sources */,
+				ED3173841FF55158005F105E /* LoginViewController.swift in Sources */,
+				ED3173871FF551FB005F105E /* NVTextField.swift in Sources */,
+				ED3173891FF5522B005F105E /* NVButton.swift in Sources */,
+				ED31738B1FF55510005F105E /* DashBoardViewController.swift in Sources */,
+				ED3173941FF55AD5005F105E /* BaseTableViewCell.swift in Sources */,
 				ED3173521FF54666005F105E /* AppDelegate.swift in Sources */,
+				ED31738D1FF55640005F105E /* LeftMenuViewController.swift in Sources */,
+				ED3173971FF55CC8005F105E /* Extension.swift in Sources */,
 				ED3173811FF547BA005F105E /* ServiceHelper.swift in Sources */,
+				ED3173901FF55959005F105E /* ImageHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

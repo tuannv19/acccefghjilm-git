@@ -14,13 +14,16 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - SlideMenuControllerSwift (4.0.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
+  - SlideMenuControllerSwift
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  SlideMenuControllerSwift: 021d6318201c53d4d4d3710517d43d6c556c7dd0
 
-PODFILE CHECKSUM: 9c8a5247492377e480d7d503d24d07ffb2c4756f
+PODFILE CHECKSUM: 77913ee707ad9dbaf02e8aa04e7afbecd6520584
 
 COCOAPODS: 1.2.1

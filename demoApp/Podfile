@@ -7,6 +7,7 @@ target 'demoApp' do
 
   # Pods for demoApp
   pod 'AFNetworking', '~> 3.0'
+  pod 'SlideMenuControllerSwift'
 
   target 'demoAppTests' do
     inherit! :search_paths
