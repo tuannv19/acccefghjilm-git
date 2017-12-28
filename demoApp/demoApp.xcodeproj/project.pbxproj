@@ -17,6 +17,7 @@
 		ED31735C1FF54666005F105E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED31735A1FF54666005F105E /* LaunchScreen.storyboard */; };
 		ED3173671FF54666005F105E /* demoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3173661FF54666005F105E /* demoAppTests.swift */; };
 		ED3173721FF54666005F105E /* demoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3173711FF54666005F105E /* demoAppUITests.swift */; };
+		ED3173811FF547BA005F105E /* ServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3173801FF547BA005F105E /* ServiceHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		ED31736D1FF54666005F105E /* demoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3173711FF54666005F105E /* demoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoAppUITests.swift; sourceTree = "<group>"; };
 		ED3173731FF54666005F105E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3173801FF547BA005F105E /* ServiceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHelper.swift; sourceTree = "<group>"; };
 		F577969314E0824864B8598E /* Pods-demoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-demoApp/Pods-demoApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,7 @@
 		ED3173501FF54666005F105E /* demoApp */ = {
 			isa = PBXGroup;
 			children = (
+				ED31737F1FF547AF005F105E /* ServiceHelper */,
 				ED3173511FF54666005F105E /* AppDelegate.swift */,
 				ED3173531FF54666005F105E /* ViewController.swift */,
 				ED3173551FF54666005F105E /* Main.storyboard */,
@@ -163,6 +166,14 @@
 				ED3173731FF54666005F105E /* Info.plist */,
 			);
 			path = demoAppUITests;
+			sourceTree = "<group>";
+		};
+		ED31737F1FF547AF005F105E /* ServiceHelper */ = {
+			isa = PBXGroup;
+			children = (
+				ED3173801FF547BA005F105E /* ServiceHelper.swift */,
+			);
+			path = ServiceHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -448,6 +459,7 @@
 			files = (
 				ED3173541FF54666005F105E /* ViewController.swift in Sources */,
 				ED3173521FF54666005F105E /* AppDelegate.swift in Sources */,
+				ED3173811FF547BA005F105E /* ServiceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
