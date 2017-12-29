@@ -13,7 +13,6 @@ class NVButton: UIButton {
     
     let kLoginButtonBackgroundColor = UIColor(displayP3Red: 31/255, green: 75/255, blue: 164/255, alpha: 1)
     let kLoginButtonTintColor = UIColor.white
-    let kLoginButtonCornerRadius: CGFloat = 13.0
 
 
     required init?(coder aDecoder: NSCoder) {
@@ -23,8 +22,9 @@ class NVButton: UIButton {
     
     private func configureUI() {
         self.backgroundColor = kLoginButtonBackgroundColor
-        self.layer.cornerRadius = kLoginButtonCornerRadius
+        self.layer.cornerRadius = self.frame.height/2
         self.tintColor = kLoginButtonTintColor
+        self.clipsToBounds = true
         
     }
 }

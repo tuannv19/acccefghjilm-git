@@ -21,11 +21,12 @@ protocol LeftMenuProtocol : class {
 
 
 class LeftMenuViewController: UIViewController {
-    
+    let backgroundColor = UIColor(hex: "F1F8E9")
     
     @IBOutlet weak var tableView: UITableView!
     
-    var menus = ["Main", "Swift", "Java", "Go", "NonMenu"]
+    var menus = ["New Account Create", "Wallet Create", "My Profile", "Internal Money Transfer", "Support", "Logout"]
+    
     var mainViewController: UIViewController!
     var swiftViewController: UIViewController!
     var javaViewController: UIViewController!
@@ -62,7 +63,9 @@ class LeftMenuViewController: UIViewController {
         
         self.tableView.dataSource = self;
         self.tableView.delegate = self;
-        tableView.reloadData()
+//        tableView.reloadData()
+        tableView.tableFooterView = UIView()
+        tableView.backgroundColor = backgroundColor
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -71,7 +74,7 @@ class LeftMenuViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        self.imageHeaderView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: 160)
+        self.imageHeaderView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: 120)
         self.view.layoutIfNeeded()
     }
     
@@ -127,7 +130,8 @@ extension LeftMenuViewController : UITableViewDataSource {
             switch menu {
             case .main, .swift, .java, .go, .nonMenu:
                 let cell = BaseTableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: BaseTableViewCell.identifier)
-                cell.setData(self.menus[indexPath.row])
+                let leftMenuItem = LeftMenuModal(name: self.menus[indexPath.row], icon: "icon_shield")
+                cell.setData(leftMenuItem)
                 return cell
             }
         }

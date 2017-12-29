@@ -17,6 +17,7 @@ class NVTextField: UITextField {
     private func configureUI() {
         self.layer.borderColor = UIColor.gray.cgColor
         self.layer.borderWidth = 0.5
-        self.layer.cornerRadius = 4.0
+        self.layer.cornerRadius = self.frame.height/2
+        self.clipsToBounds = true
     }
 }
